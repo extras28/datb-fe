@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;600&display=swap');
+/* Custom fonts */
+
+@import './assets/fontawesome/css/all.css';
+@import './assets/font_awesome_6_pro/css/all.css';
+/* fontawesome */
+
+@import './assets/keenthemes-icons/ki.css';
+/* ki */
+
+@import '~perfect-scrollbar';
+/* perfect scrollbar */
+
+html,
+body {
+  /* font size of root element (rem) */
+  font-size: 13px !important;
+  --ck-z-default: 10000 !important;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Be Vietnam Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+:root {
+  --ck-z-default: 10000 !important;
+  /* --ck-z-modal: calc(var(--ck-z-default) + 999); */
+}
+.custom-toc li {
+  list-style: none;
+}
+
+.custom-upload-image {
+  width: 100% !important;
+}
+
+.custom-upload-image .image-input-wrapper {
+  width: 100% !important;
+  background-position: center;
+}
+
+.custom-upload-thumbnail .image-input-wrapper {
+  background-position: center;
+}
